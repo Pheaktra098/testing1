@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+body{
+  margin: 0%;
+}
+.container{
+      width: 100%;
+    height: auto;
+    margin: 0px;
+    position: relative;
+
+  
+}
+.navbar{
+    background-color: rgb(4, 4, 176);
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+.logo img{
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 15%;
+    height: 55px;
+    float: left;
+    
+}
+.icon{
+    width: auto;
+    height: 50px;
+    float: right;
+    display: flex;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+.icon a i{
+    height: 50px; 
+    color: rgb(255, 255, 255);
+    margin-top:10px ;
+    margin-left: 15px;
+}
+.icon button{
+    margin-left: 20px;
+    width: 180px;
+    height: 30px;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #ce0a0a;
+   
+
+}
+.header.stciky {
+    margin-top: 0%;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    animation: fadeInDown 0.7s ease-in-out;
+    box-shadow: 14px 14px 60px 0 rgb(80 20 173 / 6%);
+    backdrop-filter: blur(50px);
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.header .header1{
+    width: 80%;
+    display: flex;
+    margin-left: 11%;
+    font-family: 'Moul', serif;
+    height: 70px;
+}.header .header1 li{
+    display: flex;
+  }
+  .header .header1 li {
+    display: flex;
+    margin-left: 30px;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    
+  }
+  .header .header1 li a{
+      width: 120px;
+        height: 100%;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        text-decoration: none; 
+        margin-top: 0px;
+       
+  }
+.header1 li a:hover{
+    margin-top:0%;
+    height: 70px;
+    background-color: #ffffff;
+    color: blue;
+}
+
+.header1 li a1:nth-child(1)
+{   
+    
+    font-size: 16px;
+    
+    width: 100px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 16, 240);
+} 
+.dropdown {
+  width: 100px;
+  float: left;
+  overflow: hidden;
+  margin-left: 3%;
+}
+
+.dropdown .dropbtn {
+    width: 100px;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 0px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(255, 255, 255);
+  color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(0, 0, 0);
+  padding: 2px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.imageslider{
+    width: 100%;
+    height: auto;
+    display: flex;
+  
+}
+.imageslider-left{
+    
+    width: 50%;
+    height: 430px;
+    float: left;
+    margin-left: 150px;
+    position: relative;
+    text-align: center;
+
+}
+.imageslider-left{
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.imageslider-left{
+    overflow: hidden;
+}
+
+
+  .imageslider-right{
+    border: 1px solid rgb(160, 149, 149);
+    background-color: rgb(243, 243, 243);
+    margin-top: 0px;
+    float: left;
+    width: 20%;
+    height: 400px;
+    display: block;
+    
+  }
+  .imageslider-right .items{
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+  }
+  
+  .item-header h2{
+    margin-top: 0px;
+    color: aliceblue;
+  }
+  
+.details{
+    border: 1px solid rgb(227, 219, 219);
+    margin-top: 0px;
+    width: 100%;
+    height: 78px;
+    margin-left: 100px;
+  
+
+}
+
+.details h4{
+    
+    margin-left: 10px;
+    width: 75%;
+    float: left;
+}
+.details img{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+.hot-new{
+   margin-left: 150px;
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+.hot-new-left {
+    background-color: blue;
+    width: 78%;
+    height: 40px;
+    display: flex;
+}
+.hot-new-right{
+   
+    width: 78%;
+    
+}
+.left{
+    margin: 0%;
+    width: 20%;
+    height: 100%;
+    background-color: red;
+
+}
+.left h2{
+    
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+.trapezoid {
+	border-bottom: 40px solid rgb(255, 0, 0);
+	border-left: 0px solid transparent;
+	border-right: 35px solid transparent;
+	height: -10px;
+	width: 3%;
+    float:right;
+}
+
+.two-A{
+    width: 28%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    border: 1px solid #f2ebeb;
+    font-family: 'Moul', serif;
+    font-size: 15px;
+
+}
+.two-A img{
+    border:1px solid rgb(129, 127, 127);
+    width: 100%;
+    
+}
+.two-A img :hover img{
+    transform: scale(1.3);
+}
+
+.two-A p3{
+    color: rgb(78, 75, 75);
+    font-size: 12px;
+
+}
+.two-A p{
+    color: rgb(166, 166, 165);
+    font-size: 13px;
+}
+.two-A a{
+    text-decoration: none; 
+}
+.two-A a:hover{
+    text-decoration: underline;
+}
+.button{
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    float: left;
+}
+.button a button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+.everyday-new{
+    margin-top: 25%;
+    margin-left: 150px;
+     width: 100%;
+     height: auto;
+     display: block;
+ 
+ }
+ .footer{
+    margin-top: 50%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(36, 36, 105);
+    
+}
+
+.footering{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    display: flex;
+}
+.contect{
+    width: 40%;
+    height: 100%;
+    float: left;
+   
+}
+.socol{
+    width: 16%;
+    height: 100%;
+    float: left;
+}
+.app{
+    width: 20%;
+    height: 100%;
+    float: left;
+   
+}
+.location{
+    width: 25%;
+    height: 100%;
+    float: right;
+    
+}
+.contect h2{ 
+    color: #ffffff;
+}
+.contect h3{
+    color: #ffffff;
+}
+.contect h4{
+    color: #ffffff;
+}
+.socol h2{
+    color: #ffffff;
+}
+.socalimg{
+    width: 100%;
+    height: 40px;
+   
+}
+.img img{
+    width: 20%;
+    height:100% ;
+    float: left;
+}
+.app h2{
+    color: #ffffff;
+}
+.location h2{
+    color: #ffffff;
+}
+
+.bottom-left {
+    height: 30%;
+    position: absolute;
+    bottom: 15px;
+    top: 63%;
+    left: 0;
+    color: rgb(225, 225, 225);
+    background-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgb(0,0,0) 113%);
+  }
+
+  .two-A{
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.two-A{
+    overflow: hidden;
+}
+.two-A:hover img{
+    transform: scale(1.1);
+}
+
+  .imageslider .wrap{
+    position:relative;
+    width: 25%;
+    height:512px;
+    margin-left: 1%;
+    
+    float: left;
+  }
+  .slider{
+    width: 100%;
+    height:475px;
+    
+    overflow:hidden;
+    border-left:1px solid rgb(236, 230, 230);
+    border-right:1px solid rgb(235, 233, 233);
+  }
+
+.slider__row{
+      display:flex;
+      flex-direction: column;
+      
+      position:relative;
+      top: 0;
+      left: 0;
+      height: auto;
+      overflow:hidden;
+      
+      transition:.5s
+      ;
+    }
+
+      .row__item{
+        width: 300px;
+        height: 101px;
+        display: flex;
+      }
+    
+      .slideshow-container {
+        max-width: 45%;
+        position: relative;
+        margin-left: 13%;
+        float: left;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+      .two-A a1{
+          float: right;
+          color: #717171;
+      }
+      .icon a:hover{
+          background-color:blue;
+          color:white;
+      }
+
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #f9f9f9;
+        color: rgb(80, 80, 68);
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+        
+      }
+      
+      #myBtn:hover {
+        background-color: white;
+      }
+      .letter{
+        width: 164px;
+        height: 76px;
+        float: left;
+       
+        font-size: smaller;
+      }
+      .letter p{
+        font-size: 9px;
+      }
+      .ima{
+         width: 96px;
+         height: 76px;
+         float: right;
+      }
+      .header1 a{
+        margin: 0%;
+      }
